@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger House</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <script defer src="Scripts/scripts.js"></script>
+    <link rel="icon" type="image/x-icon" href="./Images/why-burger-1.png" />
+</head>
+<body>
+<section class="main">
+
+    <header class="header">
+        <div class="container">
+            <div class="Logo">
+                <img src="Images/LOGO%20(2).png" alt="Logo">
+            </div>
+
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-items"><a data-link="menu-burger">Меню бургеров</a></li>
+                    <li class="menu-items"><a data-link="order">Оформление заказа</a></li>
+                    <li class="menu-items"><a data-link="why">Почему у нас</a></li>
+                </ul>
+            </nav>
+
+            <div class="dollars-header" title="Изменить валюту">
+                <p>$</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="main-info">
+                <span class="main-small-info">Новое меню</span>
+                <h1 class="main-title">Бургер чеддер</h1>
+                <p class="main-text">Мы обновили наше меню, спешите попробовать
+                    сезонные новинки и насладиться отличным вкусом
+                    наших бургеров. Готовим для вас лучшие бургеры в
+                    городе из отборной мраморной говядины.</p>
+                <div class="main-action">
+                    <button class="btn" id="main-content-button">Смотреть меню</button>
+                </div>
+            </div>
+            <img class="main-burger" src="Images/main_burger.png" alt="Burger">
+        </div>
+    </section>
+
+</section>
+
+<section class="why" id="why">
+    <div class="container">
+        <div class="section-title">Почему нас выбирают?</div>
+
+        <div class="why-content-items">
+
+            <div class="why-item">
+                <img class="why-img" src="Images/why-burger-1.png" alt="Burger">
+                <p class="png-title">Авторские рецепты</p>
+                <p class="text-disc">Наши бургеры обладают уникальным…
+                    сочетанием вкусов и не похожи…
+                    ни на какие другие. Мы тщательно.
+                    отбираем лучшие ингредиенты.
+                    и сочетания вкусов для нашего меню.</p>
+            </div>
+            <div class="why-item">
+                <img class="why-img" src="Images/why-meat-2.png" alt="Burger">
+                <p class="png-title">Мраморная говядина</p>
+                <p class="text-disc">Для наших бургеров мы используем
+                    отборную 100% мраморную говядину,
+                    которую закупаем исключительно
+                    у фермеров. Мы уверены в качестве
+                    нашего мяса.</p>
+            </div>
+            <div class="why-item">
+                <img class="why-img" src="Images/why-food_truck-3.png" alt="Burger">
+                <p class="png-title">Быстрая доставка</p>
+                <p class="text-disc">Мы доставляем в пределах МКАД
+                    за 30 минут, а если не успеем -
+                    доставка бесплатно. Мы тщательно
+                    упаковываем наши бургеры, чтобы
+                    по дороге они не остыли.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="menu-burger" id="menu-burger">
+    <div class="container">
+        <div class="section-title">Выберите свой бургер</div>
+
+        <div class="menu-grid-items">
+
+            <div class="menu-item">
+                <img src="Images/1.png" alt="Burger-1">
+                <p class="card-title">Бургер чеддер & бекон</p>
+                <p class="card-disc">Котлета из говядины криспи, булочка,
+                    томат, сыр Чеддер, грудинка, лук
+                    красный, салат айсберг, майонез,
+                    кетчуп, сырный соус</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">8 $</p>
+                        <span class="gram-item">360 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/2.png" alt="Burger-1">
+                <p class="card-title">BBQ с беконом и курицей</p>
+                <p class="card-disc">Булочка бриошь с кунжутом, куриная
+                    котлета, сыр чеддер, томат, огурец
+                    маринованный, лук маринованный,
+                    салат Ромейн, бекон, соус BBQ</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">7 $</p>
+                        <span class="gram-item">390 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/3.png" alt="Burger-1">
+                <p class="card-title">Дабл биф бургер</p>
+                <p class="card-disc">Две говяжьи котлеты, сыр чеддер,
+                    салат романо, маринованные огурцы,
+                    свежий томат, бекон, красный лук,
+                    соус бургер, горчица</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">10 $</p>
+                        <span class="gram-item">420 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/4.png" alt="Burger-1">
+                <p class="card-title">Баварский бюргер</p>
+                <p class="card-disc">Булочка для бургера, говяжья котлета,
+                    красный лук, сыр, охотничья колбаска,
+                    соус барбекю, соус сырный, салат
+                    айсберг</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">7 $</p>
+                        <span class="gram-item">220 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/5.png" alt="Burger-1">
+                <p class="card-title">Бекон чизбургер</p>
+                <p class="card-disc">Булочка для бургера, говяжья котлета,
+                    грудинка, помидор, огурец
+                    маринованный, сыр, сырный соус,
+                    кетчуп, зелень</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">8 $</p>
+                        <span class="gram-item">220 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/6.png" alt="Burger-1">
+                <p class="card-title">Индиана бургер</p>
+                <p class="card-disc">Булочка для бургера, котлета куриная,
+                    грудинка, яйцо, огурец маринованный,
+                    криспи лук, кетчуп, соус сырный,
+                    горчица, зелень</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">9 $</p>
+                        <span class="gram-item">320 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <!--Дз-->
+            <div class="menu-item">
+                <img src="Images/7.png" alt="Burger-1">
+                <p class="card-title">Вегги бургер</p>
+                <p class="card-disc">Булочка для бургера, вегетарианская котлета, красный лук, сыр, свежий томат, соус
+                    барбекю, соус сырный, салат айсберг</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">7 $</p>
+                        <span class="gram-item">280 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/8.png" alt="Burger-1">
+                <p class="card-title">Плаксивый Джо</p>
+                <p class="card-disc">Булочка для бургера, говяжья котлета, грудинка, помидор, огурец маринованный,
+                    красный лук, сыр, перец халапеньо, кетчуп, зелень</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">7 $</p>
+                        <span class="gram-item">380 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/9.png" alt="Burger-1">
+                <p class="card-title">Двойной чиз бургер</p>
+                <p class="card-disc">Булочка для бургера, две говяжьи котлеты, двойной сыр чеддар, огурец маринованный,
+                    криспи лук, кетчуп, соус сырный, горчица, зелень</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">11 $</p>
+                        <span class="gram-item">400 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/10.png" alt="Burger-1">
+                <p class="card-title">Фрешбургер</p>
+                <p class="card-disc">Булочка для бургера, говяжья котлета, бекон, сыр чеддар, яйцо, салями, соус
+                    барбекю, соус сырный, салат айсберг, свежий томат</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">9 $</p>
+                        <span class="gram-item">300 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/11.png" alt="Burger-1">
+                <p class="card-title">Цуккини бургер</p>
+                <p class="card-disc">Булочка для бургера, вегетарианская котлета из нута, цуккини на гриле, помидор,
+                    огурец маринованный, сыр, горчичный соус, кетчуп, зелень</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">8 $</p>
+                        <span class="gram-item">320 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Images/12.png" alt="Burger-1">
+                <p class="card-title"> Двойной бургер чеддар</p>
+                <p class="card-disc">Булочка для бургера, котлета говяжья, грудинка, красный лук, огурец маринованный,
+                    томат, кетчуп, двойной сыр чеддар, горчица, зелень</p>
+
+                <div class="card-shop">
+
+                    <div class="block-shop">
+                        <p class="price-item">9 $</p>
+                        <span class="gram-item">360 гр</span>
+                    </div>
+
+                    <button class="btn-menu-item btn">
+                        Заказать
+                        <img class="btn-img-shop" src="Images/Vector.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="order" id="order">
+    <div class="container">
+        <div class="order-title section-title">Оформление заказа</div>
+        <img src="Images/order_image.png" alt="Burger_img" class="order-image">
+        <div class="order-form">
+            <div class="form-title">Заполните все данные и наш менеджер свяжется с вами для подтверждения заказа</div>
+
+            <div class="form-inputs">
+                <div class="form-input">
+                    <input type="text" name="Заказ" placeholder="Ваш заказ" value="" id="input-text">
+                </div>
+                <div class="form-input">
+                    <input type="text" name="Заказ" placeholder="Ваше имя" value="" id="input-name">
+                </div>
+                <div class="form-input">
+                    <input type="text" name="Заказ" placeholder="Ваш телефон" value="" id="input-number">
+                </div>
+            </div>
+
+            <button class="order-btn btn">Оформить заказ</button>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <img src="Images/LOGO%20(2).png" alt="LOGO">
+        <div class="footer-text">Все права защищены</div>
+    </div>
+</footer>
+</body>
+</html>
